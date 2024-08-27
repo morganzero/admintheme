@@ -1,9 +1,5 @@
 /*
- * WHMCS Blend Admin Theme
- *
- * @author    WHMCS Limited <development@whmcs.com>
- * @copyright Copyright (c) WHMCS Limited 2020
- * @license   https://www.whmcs.com/license/
+ * WHMCS Movio Admin Theme
  */
 
 .addon-html-output-container {
@@ -33,7 +29,7 @@
 .inset-grey-bg {
     margin: 15px -15px;
     padding: 10px;
-    background-color: #f8f8f8;
+    background-color: #ebd0ca; /* Changed */
 }
 
 .inset-element-container {
@@ -53,13 +49,10 @@
 .contextbar {
     margin: 0;
     padding: 10px;
-    background-color:#666;
+    background-color:#000000; /* Changed */
     font-size: 14px;
     color: #fff;
     text-align: center;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
     border-radius: 5px;
 }
 
@@ -69,9 +62,6 @@
     padding: 5px 20px;
     border: 1px solid #FBEB20;
     background-color: #FFFFD5;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
     border-radius: 5px;
 }
 
@@ -88,9 +78,6 @@
     background-color: #fff;
     border: 3px solid #E2E7E9;
     border-spacing: 2px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
     border-radius: 4px;
 }
 
@@ -104,11 +91,11 @@
 }
 .multi-select-blocks div:hover {
     cursor: pointer;
-    border-color: #666;
+    border-color: #000000; /* Changed */
 }
 .multi-select-blocks div.active {
-    border-color: #336699;
-    background-color: #eff7ff;
+    border-color: #000000; /* Changed */
+    background-color: #ebd0ca; /* Changed */
 }
 .form-group .field-error-msg {
     display: none;
@@ -148,7 +135,7 @@
     text-align:center;
 }
 #clientsearchresults .searchresult, #ticketclientsearchresults .searchresult {
-    background-color:#f4f4f4;
+    background-color:#ebd0ca; /* Changed */
     border-top: 3px solid #fff;
     padding: 2px 0 2px 5px;
 }
@@ -187,9 +174,6 @@ table.form {
     border: 3px solid #E2E7E9;
     border-collapse: separate;
     border-spacing: 2px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
     border-radius: 4px;
 }
 table.form td {
@@ -228,7 +212,7 @@ table.datatable {
 table.datatable th {
     padding: 4px;
     font-weight: bold;
-    background-color: #1e2c55;
+    background-color: #990000; /* Changed */
     border-bottom: 1px solid #ddd;
     border-radius: 3px;
     text-align: center;
@@ -359,15 +343,13 @@ table.padded-fields td {
     margin: 10px 0;
     padding: 6px 10px 6px 60px;
     min-height: 28px;
-    background-color: #FAF6D4;
+    background-color: #ebd0ca; /* Changed */
     border: 1px solid #E6C26E;
     color: #000;
     text-align: left;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
     border-radius: 5px;
 }
+
 .infobox span.title {
     color: #BE8007;
 }

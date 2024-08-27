@@ -7,7 +7,7 @@
             <!-- Removal of the WHMCS copyright notice is strictly prohibited -->
             <!-- Branding removal entitlement does not permit this line to be removed -->
             Copyright &copy;
-            <a href="https://www.pagenorth.co.uk/" target="_blank">PageNorth Limited</a> {date('Y')}.
+            <a href="https://www.movio.pro/" target="_blank">Movio Limited</a> {date('Y')}.
             All Rights Reserved.
         </div>
         <div class="links">

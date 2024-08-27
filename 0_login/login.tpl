@@ -8,22 +8,22 @@
 
         <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
         <link href="templates/login.min.css" rel="stylesheet">
-        <link href="templates/pagenorth-admin-theme/0_login/pn-login-style.css" rel="stylesheet">
+        <link href="templates/movio/0_login/pn-login-style.css" rel="stylesheet">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="templates/pagenorth-admin-theme/images/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="templates/pagenorth-admin-theme/images/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="templates/pagenorth-admin-theme/images/favicons/favicon-16x16.png">
-        <link rel="manifest" href="templates/pagenorth-admin-theme/images/favicons/site.webmanifest">
-        <link rel="mask-icon" href="templates/pagenorth-admin-theme/images/favicons/safari-pinned-tab.svg" color="#92c13e">
-        <link rel="shortcut icon" href="templates/pagenorth-admin-theme/images/favicons/favicon.ico">
-        <meta name="apple-mobile-web-app-title" content="PageNorth Helpdesk Admin">
-        <meta name="application-name" content="PageNorth Helpdesk Admin">
+        <link rel="apple-touch-icon" sizes="180x180" href="templates/movio/images/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="templates/movio/images/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="templates/movio/images/favicons/favicon-16x16.png">
+        <link rel="manifest" href="templates/movio/images/favicons/site.webmanifest">
+        <link rel="mask-icon" href="templates/movio/images/favicons/safari-pinned-tab.svg" color="#92c13e">
+        <link rel="shortcut icon" href="templates/movio/images/favicons/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="Movio Helpdesk Admin">
+        <meta name="application-name" content="Movio Helpdesk Admin">
         <meta name="msapplication-TileColor" content="#2b5797">
-        <meta name="msapplication-config" content="templates/pagenorth-admin-theme/images/favicons/browserconfig.xml">
+        <meta name="msapplication-config" content="templates/movio/images/favicons/browserconfig.xml">
         <meta name="theme-color" content="#1e2c55">
 
         <style>
-            /* PageNorth Login Screen Customisations */
+            /* Movio Login Screen Customisations */
             :root {
                 --pn-blue: #1e2c55;
                 --pn-green: #92c13e;
@@ -39,7 +39,7 @@
                 width: 240px;
             }
 
-            /* Styles all buttons to pagenorth green */
+            /* Styles all buttons to Movio green */
             .btn-primary {
                 color: #fff;
                 font-weight: bold;
@@ -70,7 +70,7 @@
         <div class="login-container">
             <h1 class="logo">
                 <a href="login.php">
-                    <img src="templates/pagenorth-admin-theme/images/page-north-logo-white-text.svg" alt="PageNorth" />
+                    <img src="templates/movio/images/page-north-logo-white-text.svg" alt="Movio" />
                 </a>
             </h1>
             <div class="login-body">
@@ -247,7 +247,7 @@
             </div>
         </div>
         <div class="poweredby text-center">
-            <a href="http://www.pagenorth.co.uk/" target="_blank">Powered by PageNorth ltd</a>
+            <a href="https://movio.pro/" target="_blank">Powered by Movio Hosting</a>
         </div>
         <script type="text/javascript">
             var recaptchaSiteKey = "{if $captcha}{$captcha->recaptcha->getSiteKey()}{/if}";

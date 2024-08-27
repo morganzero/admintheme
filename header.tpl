@@ -38,14 +38,14 @@
     <link rel="manifest" href="templates/{$template}/images/favicons/site.webmanifest">
     <link rel="mask-icon" href="templates/{$template}/images/favicons/safari-pinned-tab.svg" color="#92c13e">
     <link rel="shortcut icon" href="templates/{$template}/images/favicons/favicon.ico">
-    <meta name="apple-mobile-web-app-title" content="PageNorth Helpdesk Admin">
-    <meta name="application-name" content="PageNorth Helpdesk Admin">
+    <meta name="apple-mobile-web-app-title" content="Movio Helpdesk Admin">
+    <meta name="application-name" content="Movio Helpdesk Admin">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="templates/{$template}/images/favicons/browserconfig.xml">
     <meta name="theme-color" content="#1e2c55">
 
     <style>
-        /* PageNorth Customisations */
+        /* Movio Customisations */
 
         :root {
             --pn-blue: #1e2c55;
@@ -54,7 +54,7 @@
             --pn-green-highlight: #e1edcc;
         }
 
-        /* Styles the PageNorth Header section */
+        /* Styles the Movio Header section */
         .pn-header {
             background-color: #f5f5f5;
             padding: 2rem;
@@ -81,7 +81,7 @@
         /* remove rounding from cards, buttons and inputs 
         .card, .btn, .form-control { border-radius: 0; } */
 
-        /* Styles all buttons to pagenorth green */
+        /* Styles all buttons to Movio green */
         .btn-primary {
             color: #fff;
             font-weight: bold;
@@ -156,7 +156,7 @@
    
         @media only screen and (max-width: 600px) {
 
-            /* Styles the PageNorth Header section */
+            /* Styles the Movio Header section */
             .pn-header {
                 background-color: #f5f5f5;
                 padding: 1rem;

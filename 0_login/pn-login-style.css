@@ -1,34 +1,54 @@
-/* PageNorth Login Screen Customisations */
+/* Movio Login Screen Customisations */
 :root {
-    --pn-blue: #1e2c55;
-    --pn-green: #92c13e;
-    --pn-green-darker: #7ca92f;
-    --pn-green-highlight: #e1edcc;
+    --movio-dark-blue: #1e2c55;
+    --movio-green: #92c13e;
+    --movio-green-darker: #7ca92f;
+    --movio-green-highlight: #e1edcc;
+    --movio-light-blue: #4aa3df;
+    --movio-purple: #7d3fbf;
+    --movio-red: #e23a55;
+    --movio-yellow: #f29b2b;
 }
 
 body {
-    background-color: var(--pn-blue);
+    background-color: var(--movio-dark-blue);
 }
 
 .login-container .logo img {
     width: 240px;
 }
 
-/* Styles all buttons to pagenorth green */
+/* Styles all buttons to Movio green */
 .btn-primary {
     color: #fff;
     font-weight: bold;
-    background-color: var(--pn-green);
-    border-color: var(--pn-green-darker);
+    background-color: var(--movio-green);
+    border-color: var(--movio-green-darker);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: var(--pn-green-darker);
-    border-color: var(--pn-green-darker);
+    background-color: var(--movio-green-darker);
+    border-color: var(--movio-green-darker);
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
     color: #fff;
-    background-color: var(--pn-green-darker);
-    border-color: var(--pn-green-darker);
+    background-color: var(--movio-purple);
+    border-color: var(--movio-light-blue);
+}
+
+/* Additional elements */
+.header, .navbar {
+    background-color: var(--movio-dark-blue);
+    color: #fff;
+}
+
+.footer {
+    background-color: var(--movio-green);
+    color: #fff;
+}
+
+.highlight {
+    background-color: var(--movio-yellow);
+    color: #000;
 }
